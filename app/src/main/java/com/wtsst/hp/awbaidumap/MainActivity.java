@@ -22,7 +22,6 @@ public class MainActivity extends AppCompatActivity {
         bmapView = (MapView) findViewById(R.id.bmapView);
     }
 //各个生命周期
-
     @Override
     protected void onDestroy() {
         super.onDestroy();

@@ -12,6 +12,7 @@ import baidumapsdk.demo.BMapApiDemoMain;
 
 public class MainActivity extends AppCompatActivity {
     private MapView bmapView = null;
+    private String txt = "王婷我爱你";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

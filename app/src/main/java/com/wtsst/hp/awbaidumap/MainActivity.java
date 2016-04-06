@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         bmapView = (MapView) findViewById(R.id.bmapView);
     }
+//各个生命周期
 
     @Override
     protected void onDestroy() {
